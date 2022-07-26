@@ -1,0 +1,61 @@
+@media (max-width: 1200px)
+	header nav .container .menu
+		.menu_item
+			padding-right: 9px
+		li a 
+			font-size: 10px
+	.promo .container
+		.header_promo
+			font-size: 40px
+	.footer 
+		&_networks
+			display: block
+			margin-top: 160px
+			&_social
+				margin-bottom: 15px
+				justify-content: center
+			&_download
+				display: flex
+				justify-content: center
+				margin-bottom: 30px
+@media (max-width: 991px)
+	header .subheader img
+		width: 100%
+	.subheader .number_subheader
+		font-size: 20px
+	.promo .subheader_promo
+		font-size: 25px
+
+@media (max-width: 767px)
+	header nav .container .menu
+		position: fixed
+		flex-direction: column
+		top: 0
+		left: -100%
+		width: 50%
+		transform: translateX(-25%)
+		justify-content: center
+		align-items: center
+		height: 100vh
+		padding: 20px 15px
+		background-color: rgba(0,0,0, .8)
+		margin: 0
+		&_activ
+			left: 50%
+		.menu_item
+			border: none
+			margin: 20px
+		li a 
+			font-size: 20px
+		li
+			text-align: left
+	
+	header nav
+		position: fixed
+		height: 50px
+		width: 100%
+		background-color: #212121
+
+@media (max-width: 424px)
+	.car .car_1 .container .label img
+		width: 100%
